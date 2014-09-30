@@ -6,7 +6,7 @@ module.exports = function(grunt) {
       },
       dist: {
           src: ['src/init.js', 'src/step_functions.js', 'src/sketchy_brush.js', 'src/critter.js', 'src/box.js'],
-          dest: 'index.js',
+          dest: './../index.js',
         },
     }
   });
